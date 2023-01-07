@@ -2,6 +2,7 @@
   <div class="row">
     <div class="col-lg-10 offset-lg-1 mt-5">
       <div class="table-responsive">
+        <RouterLink :to="{path:'/create/'}" class="btn btn-success ml-auto float-end"> Nuevo Estudiante</RouterLink>
 
         <table class="table table-bordered table-hover">
           <thead>

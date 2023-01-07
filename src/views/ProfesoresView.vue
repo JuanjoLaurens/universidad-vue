@@ -1,8 +1,10 @@
 <template>
     <div class="row">
-        <div class="col-lg-10 offset-sm-1 mt-5">
+        <div class="col-lg-11 offset-sm-1 mt-5">
+        <RouterLink :to="{path:'/crearprofesor/'}" class="btn btn-success ml-auto float-end"> Nuevo Profesor</RouterLink>
             <div class="table-responsive">
                 <table class="table table-bordered table-hover">
+                    
                     <thead>
                         <h1>Profesores</h1>
                         <tr>

@@ -1,6 +1,8 @@
 <template>
     <div class="row">
         <div class="col-lg-10 offset-lg-1 mt-5">
+        <RouterLink :to="{path:'/crearmateria/'}" class="btn btn-success ml-auto float-end"> Nueva Materia</RouterLink>
+
             <div class="table-responsive">
                 <table class="table table-bordered table-hover">
                     <thead>

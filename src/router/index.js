@@ -43,6 +43,7 @@ const routes = [
 
     component: ProfesoresView
   },
+  
   {
     path: '/materias',
     name: 'materias',
